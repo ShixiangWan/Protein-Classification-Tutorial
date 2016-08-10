@@ -1,11 +1,11 @@
 
 
-# 蛋白质分类教（以cytokine为例）
+# 蛋白质分类教程（以cytokine为例）
 version 0.1
 
 ##一、流程概述如下：
 
-[](http://lab.malab.cn/~shixiang/img/001.jpg)
+![](http://lab.malab.cn/~shixiang/img/001.jpg)
 
 ##二、下载FASTA数据（正例）并识别家族属性（PFAM）
 
@@ -13,7 +13,7 @@ version 0.1
 
 ####1.  找出目前已知的cytokine，先google一下有没有已知的database，如果没有可以去Uniprot数据库（[链接](http://www.uniprot.org/ "Title")），搜索cytokine，然后以FASTA格式download下载结果： 
 
-[](http://lab.malab.cn/~shixiang/img/001.jpg)
+![](http://lab.malab.cn/~shixiang/img/002.jpg)
 
 ####2.  下载完毕，解压缩文件后，将FASTA数据格式的文件用Notepad++打开，可以看到如下格式，其中，用红色方框圈起来的部分是蛋白质的UniportID：
  
