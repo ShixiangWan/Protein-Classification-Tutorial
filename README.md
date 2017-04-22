@@ -1,94 +1,94 @@
 
 
-# µ°°×ÖÊ·ÖÀà½Ì³Ì£¨ÒÔcytokineÎªÀý£©
+# è›‹ç™½è´¨åˆ†ç±»æ•™ç¨‹ï¼ˆä»¥cytokineä¸ºä¾‹ï¼‰
 version 0.1
 
-##Ò»¡¢Á÷³Ì¸ÅÊöÈçÏÂ£º
+## ä¸€ã€æµç¨‹æ¦‚è¿°å¦‚ä¸‹ï¼š
 
 ![](/img/001.jpg)
 
-##¶þ¡¢ÏÂÔØFASTAÊý¾Ý£¨ÕýÀý£©²¢Ê¶±ð¼Ò×åÊôÐÔ£¨PFAM£©
+## äºŒã€ä¸‹è½½FASTAæ•°æ®ï¼ˆæ­£ä¾‹ï¼‰å¹¶è¯†åˆ«å®¶æ—å±žæ€§ï¼ˆPFAMï¼‰
 
-Ê¶±ðµ°°×ÖÊ¼Ò×åÊôÐÔµÄ·½·¨ÓÐºÜ¶à£¬×î´«Í³µÄ·½·¨ÊÇÔÚÄ³¸öµ°°×ÖÊÊý¾Ý¿â£¨ÀýÈç£ºUniport£©ÖÐÕÒµ½¸ÃÖÖµ°°×ÖÊ£¬Æä¼Ò×åÊôÐÔ£¨PFAM£©±ãÒ»Ä¿ÁËÈ»¡£ £¨²Î¼û£ºhttp://datamining.xmu.edu.cn/~wangzhen/cytokine/£©¡£ ÏÔÈ»£¬ÕâÖÖ·½·¨Ö»ÊÊºÏÐ¡ÅúÁ¿²éÑ¯£¬ÎÒÃÇÐ´¸öÐ¡Java³ÌÐòÊµÏÖÐÅÏ¢×¥È¡¡£¾Ù¸öÀý×Ó£¬ÎÒÏë·ÖÀàÒ»¸öµ°°×ÖÊÊÇ²»ÊÇcytokine (Ï¸°ûÒò×Ó)£¬²½ÖèÈçÏÂ£¨Çë×Ô±¸ÌÝ×Ó£©£º 
+è¯†åˆ«è›‹ç™½è´¨å®¶æ—å±žæ€§çš„æ–¹æ³•æœ‰å¾ˆå¤šï¼Œæœ€ä¼ ç»Ÿçš„æ–¹æ³•æ˜¯åœ¨æŸä¸ªè›‹ç™½è´¨æ•°æ®åº“ï¼ˆä¾‹å¦‚ï¼šUniportï¼‰ä¸­æ‰¾åˆ°è¯¥ç§è›‹ç™½è´¨ï¼Œå…¶å®¶æ—å±žæ€§ï¼ˆPFAMï¼‰ä¾¿ä¸€ç›®äº†ç„¶ã€‚ ï¼ˆå‚è§ï¼šhttp://datamining.xmu.edu.cn/~wangzhen/cytokine/ï¼‰ã€‚ æ˜¾ç„¶ï¼Œè¿™ç§æ–¹æ³•åªé€‚åˆå°æ‰¹é‡æŸ¥è¯¢ï¼Œæˆ‘ä»¬å†™ä¸ªå°Javaç¨‹åºå®žçŽ°ä¿¡æ¯æŠ“å–ã€‚ä¸¾ä¸ªä¾‹å­ï¼Œæˆ‘æƒ³åˆ†ç±»ä¸€ä¸ªè›‹ç™½è´¨æ˜¯ä¸æ˜¯cytokine (ç»†èƒžå› å­)ï¼Œæ­¥éª¤å¦‚ä¸‹ï¼ˆè¯·è‡ªå¤‡æ¢¯å­ï¼‰ï¼š 
 
-####1. ÕÒ³öÄ¿Ç°ÒÑÖªµÄcytokine£¬ÏÈgoogleÒ»ÏÂÓÐÃ»ÓÐÒÑÖªµÄdatabase£¬Èç¹ûÃ»ÓÐ¿ÉÒÔÈ¥UniprotÊý¾Ý¿â£¨[Á´½Ó](http://www.uniprot.org/ "Title")£©£¬ËÑË÷cytokine£¬È»ºóÒÔFASTA¸ñÊ½downloadÏÂÔØ½á¹û£º 
+#### 1. æ‰¾å‡ºç›®å‰å·²çŸ¥çš„cytokineï¼Œå…ˆgoogleä¸€ä¸‹æœ‰æ²¡æœ‰å·²çŸ¥çš„databaseï¼Œå¦‚æžœæ²¡æœ‰å¯ä»¥åŽ»Uniprotæ•°æ®åº“ï¼ˆ[é“¾æŽ¥](http://www.uniprot.org/ "Title")ï¼‰ï¼Œæœç´¢cytokineï¼Œç„¶åŽä»¥FASTAæ ¼å¼downloadä¸‹è½½ç»“æžœï¼š 
 
 ![](/img/002.jpg)
 
-####2. ÏÂÔØÍê±Ï£¬½âÑ¹ËõÎÄ¼þºó£¬½«FASTAÊý¾Ý¸ñÊ½µÄÎÄ¼þÓÃNotepad++´ò¿ª£¬¿ÉÒÔ¿´µ½ÈçÏÂ¸ñÊ½£¬ÆäÖÐ£¬ÓÃºìÉ«·½¿òÈ¦ÆðÀ´µÄ²¿·ÖÊÇµ°°×ÖÊµÄUniportID£º
+#### 2. ä¸‹è½½å®Œæ¯•ï¼Œè§£åŽ‹ç¼©æ–‡ä»¶åŽï¼Œå°†FASTAæ•°æ®æ ¼å¼çš„æ–‡ä»¶ç”¨Notepad++æ‰“å¼€ï¼Œå¯ä»¥çœ‹åˆ°å¦‚ä¸‹æ ¼å¼ï¼Œå…¶ä¸­ï¼Œç”¨çº¢è‰²æ–¹æ¡†åœˆèµ·æ¥çš„éƒ¨åˆ†æ˜¯è›‹ç™½è´¨çš„UniportIDï¼š
  
 ![](/img/003.jpg)
 
-####3. ÀûÓÃUniportID²éÑ¯µ°°×ÖÊµÄPFAM¼Ò×å¡£
+#### 3. åˆ©ç”¨UniportIDæŸ¥è¯¢è›‹ç™½è´¨çš„PFAMå®¶æ—ã€‚
 
-Ê×ÏÈ£¬·ÃÎÊÍøÕ¾http://www.programmableweb.com/
+é¦–å…ˆï¼Œè®¿é—®ç½‘ç«™http://www.programmableweb.com/
 
-È»ºó£¬²éÕÒPFAM¶ÔÓ¦µÄAPI£º
+ç„¶åŽï¼ŒæŸ¥æ‰¾PFAMå¯¹åº”çš„APIï¼š
 
 ![](/img/004.jpg)
 
 ![](/img/005.jpg)
 
-####4. ½øÈë¸ÃAPIÍøÕ¾£¬ÎÒÃÇ¿ÉÒÔ¿´µ½ÓÐÕâÑùµÄ·µ»ØXML¸ñÊ½µÄAPI£¬´Ó·µ»ØµÄ¼òµ¥XML½á¹ûÖÐÌáÈ¡PFAM£¬ËÙ¶È¸Ü¸ÜµÄ£¡
+#### 4. è¿›å…¥è¯¥APIç½‘ç«™ï¼Œæˆ‘ä»¬å¯ä»¥çœ‹åˆ°æœ‰è¿™æ ·çš„è¿”å›žXMLæ ¼å¼çš„APIï¼Œä»Žè¿”å›žçš„ç®€å•XMLç»“æžœä¸­æå–PFAMï¼Œé€Ÿåº¦æ æ çš„ï¼
 ```
-api£ºhttp://pfam.xfam.org/protein/{PFAM}?output=xml£»
+apiï¼šhttp://pfam.xfam.org/protein/{PFAM}?output=xmlï¼›
 ```
 
  ![](/img/006.jpg)
 
 
-####5. ½«ÒÔÉÏ²½Öè±à³ÌÊµÏÖ
+#### 5. å°†ä»¥ä¸Šæ­¥éª¤ç¼–ç¨‹å®žçŽ°
 
-³ÌÐòÔ´´úÂë²¿ÊðÔÚGithub£ºhttps://github.com/ShixiangWan/Get-PFAM-of-cytokine
+ç¨‹åºæºä»£ç éƒ¨ç½²åœ¨Githubï¼šhttps://github.com/ShixiangWan/EasyNegProtein
 
 
-##Èý¡¢È¥ÖØ¸´²¢³éÈ¡·´Àý
+## ä¸‰ã€åŽ»é‡å¤å¹¶æŠ½å–åä¾‹
 
-Ê×ÏÈÐèÒªÖªµÀ£º´ËÊ±ÊôÓÚcytokineµÄµ°°×ÐòÁÐ¾ÍÊÇÕýÀý£¬·ñÔò¾ÍÊÇ·´Àý¡£Ã¿¸öÐòÁÐ¶¼»áÊôÓÚÒ»¸öPFAM¼Ò×å£¬ÏàËÆÐòÁÐ»áÊôÓÚÍ¬Ò»¸ö¼Ò×å¡£
+é¦–å…ˆéœ€è¦çŸ¥é“ï¼šæ­¤æ—¶å±žäºŽcytokineçš„è›‹ç™½åºåˆ—å°±æ˜¯æ­£ä¾‹ï¼Œå¦åˆ™å°±æ˜¯åä¾‹ã€‚æ¯ä¸ªåºåˆ—éƒ½ä¼šå±žäºŽä¸€ä¸ªPFAMå®¶æ—ï¼Œç›¸ä¼¼åºåˆ—ä¼šå±žäºŽåŒä¸€ä¸ªå®¶æ—ã€‚
 
-ÔÚÕÒ³öcytokine£¨ÕýÀý£©µÄËùÓÐPFAM¼Ò×åºó£¬ÐèÒªÉ¾³ýÖØ¸´µÄPFAMµÃµ½²»ÖØ¸´µÄÕýÀý¼Ò×å£¨txt¸ñÊ½£©¡£ÔÚÈ«²¿¼Ò×åÖÐÉ¾³ýÕýÀýÐòºÅ¶ÔÓ¦µÄ¼Ò×åÄÇÃ´ÕÒ³öËùÓÐ·´ÀýµÄ¼Ò×å£¬²¢ÇÒÃ¿¸ö·´Àý¼Ò×åÁôÒ»Ìõ×î³¤µÄµ°°×ÐòÁÐ×÷Îª³éÈ¡µ½µÄ·´Àý¡£
+åœ¨æ‰¾å‡ºcytokineï¼ˆæ­£ä¾‹ï¼‰çš„æ‰€æœ‰PFAMå®¶æ—åŽï¼Œéœ€è¦åˆ é™¤é‡å¤çš„PFAMå¾—åˆ°ä¸é‡å¤çš„æ­£ä¾‹å®¶æ—ï¼ˆtxtæ ¼å¼ï¼‰ã€‚åœ¨å…¨éƒ¨å®¶æ—ä¸­åˆ é™¤æ­£ä¾‹åºå·å¯¹åº”çš„å®¶æ—é‚£ä¹ˆæ‰¾å‡ºæ‰€æœ‰åä¾‹çš„å®¶æ—ï¼Œå¹¶ä¸”æ¯ä¸ªåä¾‹å®¶æ—ç•™ä¸€æ¡æœ€é•¿çš„è›‹ç™½åºåˆ—ä½œä¸ºæŠ½å–åˆ°çš„åä¾‹ã€‚
 
-³ÌÐòÔ´´úÂë²¿ÊðÔÚGithub£ºhttps://github.com/ShixiangWan/Get-PFAM-of-cytokine
+ç¨‹åºæºä»£ç éƒ¨ç½²åœ¨Githubï¼šhttps://github.com/ShixiangWan/EasyNegProtein
 
-##ËÄ¡¢CH-HIT¾ÛÀàÈ¥ÈßÓà
+## å››ã€CH-HITèšç±»åŽ»å†—ä½™
 
-ÉèÖÃºÏÊÊµÄ¾ÛÀàãÐÖµ£¬·Ö±ð¶ÔÇ°ÃæµÃµ½µÄÕý·´ÀýfastaÐòÁÐÎÄ¼þ½øÐÐ¾ÛÀà£¬È¥³ýÈßÓà£¬¾«¼òÐòÁÐ¸öÊý£¬·½±ãºóÃæ½øÐÐµÄÌØÕ÷ÌáÈ¡´¦Àí¡£
+è®¾ç½®åˆé€‚çš„èšç±»é˜ˆå€¼ï¼Œåˆ†åˆ«å¯¹å‰é¢å¾—åˆ°çš„æ­£åä¾‹fastaåºåˆ—æ–‡ä»¶è¿›è¡Œèšç±»ï¼ŒåŽ»é™¤å†—ä½™ï¼Œç²¾ç®€åºåˆ—ä¸ªæ•°ï¼Œæ–¹ä¾¿åŽé¢è¿›è¡Œçš„ç‰¹å¾æå–å¤„ç†ã€‚
 
-CD-HITÍøÖ·£ºhttp://weizhong-lab.ucsd.edu/public/
+CD-HITç½‘å€ï¼šhttp://weizhong-lab.ucsd.edu/public/
 
-Ê¹ÓÃ·½·¨·Ç³£¼òµ¥£¬ÉèÖÃºÃÊäÈëÎÄ¼þÃû£¬¾ÛÀàãÐÖµ£¨ÀýÈç70%£©£¬Êä³öÎÄ¼þÃû¼´¿É¡£
+ä½¿ç”¨æ–¹æ³•éžå¸¸ç®€å•ï¼Œè®¾ç½®å¥½è¾“å…¥æ–‡ä»¶åï¼Œèšç±»é˜ˆå€¼ï¼ˆä¾‹å¦‚70%ï¼‰ï¼Œè¾“å‡ºæ–‡ä»¶åå³å¯ã€‚
 
-##Îå¡¢ÌáÈ¡ÌØÕ÷ÏòÁ¿
+## äº”ã€æå–ç‰¹å¾å‘é‡
 
-Ç°ÊöµÄ·½·¨ÒÑ¾­µÃµ½½ÏÎª¾«¼òµÄfastaµ°°×ÖÊÐòÁÐÎÄ¼þ£¬wekaÎÞ·¨¶ÔÆä½øÐÐ·ÖÀà²Ù×÷£¬ÐèÒª½«Æä·Ö±ðÌáÈ¡ÌØÕ÷ÏòÁ¿£¬²¢°´ÕÕcsv»òarffµÈwekaÄÜ¹»´¦ÀíµÄÎÄ¼þ¸ñÊ½×ª»¯¡£
-ÌáÈ¡ÌØÕ÷ÏòÁ¿µÄ·½·¨·Ç³£¶à£¬Èç¶ÔÓÚµ°°×ÖÊÐòÁÐ£¬ÓÐ188Î¬£¬Pse-in-one£¬Pseb£¬K-skip£¬n-gram£¬protrwebµÈ¡£
+å‰è¿°çš„æ–¹æ³•å·²ç»å¾—åˆ°è¾ƒä¸ºç²¾ç®€çš„fastaè›‹ç™½è´¨åºåˆ—æ–‡ä»¶ï¼Œwekaæ— æ³•å¯¹å…¶è¿›è¡Œåˆ†ç±»æ“ä½œï¼Œéœ€è¦å°†å…¶åˆ†åˆ«æå–ç‰¹å¾å‘é‡ï¼Œå¹¶æŒ‰ç…§csvæˆ–arffç­‰wekaèƒ½å¤Ÿå¤„ç†çš„æ–‡ä»¶æ ¼å¼è½¬åŒ–ã€‚
+æå–ç‰¹å¾å‘é‡çš„æ–¹æ³•éžå¸¸å¤šï¼Œå¦‚å¯¹äºŽè›‹ç™½è´¨åºåˆ—ï¼Œæœ‰188ç»´ï¼ŒPse-in-oneï¼ŒPsebï¼ŒK-skipï¼Œn-gramï¼Œprotrwebç­‰ã€‚
 
-Ò»¸öÈ«ÃæµÄ×Ü½áÌû£ºhttp://malab.cn/forum.php?mod=viewthread&tid=926&extra=page%3D1
+ä¸€ä¸ªå…¨é¢çš„æ€»ç»“å¸–ï¼šhttp://malab.cn/forum.php?mod=viewthread&tid=926&extra=page%3D1
 
-* 188Î¬ÍøÖ·£º¼û×Ü½áÌû
-* Pse-in-oneÍøÖ·£ºhttp://bioinformatics.hitsz.edu.cn/Pse-in-One/
-* PsebÍøÖ·£º¼û×Ü½áÌû
-* n-gramÍøÖ·£º¼û×Ü½áÌû
-* protrwebÍøÖ·£ºhttp://protrweb.scbdd.com/
+* 188ç»´ç½‘å€ï¼šè§æ€»ç»“å¸–
+* Pse-in-oneç½‘å€ï¼šhttp://bioinformatics.hitsz.edu.cn/Pse-in-One/
+* Psebç½‘å€ï¼šè§æ€»ç»“å¸–
+* n-gramç½‘å€ï¼šè§æ€»ç»“å¸–
+* protrwebç½‘å€ï¼šhttp://protrweb.scbdd.com/
 
-##Áù¡¢¶Ô¸ßÎ¬ÌØÕ÷ÏòÁ¿½µÎ¬
+## å…­ã€å¯¹é«˜ç»´ç‰¹å¾å‘é‡é™ç»´
 
-N-Gram·½·¨ÖÐ£¬Èç¹ûnÈ¡ÖµÎª3£¬ÒÀ¾Ýµ°°×ÖÊ°±»ùËáÖÖÀàÎª20£¬ÄÇÃ´½«µÃµ½20*20*20=8000Î¬µÄÌØÕ÷ÏòÁ¿£¬ÔÚ·ÖÀà»òÔ¤²â³ÉÇ§ÉÏÍò¸öµ°°×ÐòÁÐÊ±£¬±ØÈ»²úÉúÁË¸ßÎ¬ÔÖÄÑ£¬²»ÀûÓÚÑÐ¾¿½øÐÐ¡£½µÎ¬·½·¨Ò²ÓÐºÜ¶à£¬ÀýÈçmRMR£¬mRMDµÈµÈ¡£
+N-Gramæ–¹æ³•ä¸­ï¼Œå¦‚æžœnå–å€¼ä¸º3ï¼Œä¾æ®è›‹ç™½è´¨æ°¨åŸºé…¸ç§ç±»ä¸º20ï¼Œé‚£ä¹ˆå°†å¾—åˆ°20*20*20=8000ç»´çš„ç‰¹å¾å‘é‡ï¼Œåœ¨åˆ†ç±»æˆ–é¢„æµ‹æˆåƒä¸Šä¸‡ä¸ªè›‹ç™½åºåˆ—æ—¶ï¼Œå¿…ç„¶äº§ç”Ÿäº†é«˜ç»´ç¾éš¾ï¼Œä¸åˆ©äºŽç ”ç©¶è¿›è¡Œã€‚é™ç»´æ–¹æ³•ä¹Ÿæœ‰å¾ˆå¤šï¼Œä¾‹å¦‚mRMRï¼ŒmRMDç­‰ç­‰ã€‚
 
-* mRMRÍøÖ·£ºhttp://penglab.janelia.org/proj/mRMR/
-* mRMDÍøÖ·£ºhttp://datamining.xmu.edu.cn/~zjcdm/data/MRMD_CH.html
+* mRMRç½‘å€ï¼šhttp://penglab.janelia.org/proj/mRMR/
+* mRMDç½‘å€ï¼šhttp://datamining.xmu.edu.cn/~zjcdm/data/MRMD_CH.html
 
-##Æß¡¢weka½»²æÑéÖ¤¼°·ÖÀàÔ¤²â
+## ä¸ƒã€wekaäº¤å‰éªŒè¯åŠåˆ†ç±»é¢„æµ‹
 
-1. Ê×ÏÈ£¬Òª¶ÔÇ°ÊöµÃµ½Õý·´ÀýÌØÕ÷ÏòÁ¿ÎÄ¼þ½øÐÐ¸ñÊ½ÕûÀí£¬ÕûÀí³ÉÎªarff»òlibsvm»òcsvÎÄ¼þ¾ù¿É£¨arffÎÄ¼þÊÇwekaÖ§³ÖµÄ±ê×¼¸ñÊ½£»libsvmÊÇºÜ¶àÌáÈ¡ÌØÕ÷ÏòÁ¿Ëã·¨µÃµ½µÄÊä³öÎÄ¼þ¸ñÊ½£»csv´æ´¢ËùÐèµÄ¿Õ¼ä×îÐ¡£¬×î¼òµ¥£¬Ç½ÁÑÍÆ¼ö£©£»
+1. é¦–å…ˆï¼Œè¦å¯¹å‰è¿°å¾—åˆ°æ­£åä¾‹ç‰¹å¾å‘é‡æ–‡ä»¶è¿›è¡Œæ ¼å¼æ•´ç†ï¼Œæ•´ç†æˆä¸ºarffæˆ–libsvmæˆ–csvæ–‡ä»¶å‡å¯ï¼ˆarffæ–‡ä»¶æ˜¯wekaæ”¯æŒçš„æ ‡å‡†æ ¼å¼ï¼›libsvmæ˜¯å¾ˆå¤šæå–ç‰¹å¾å‘é‡ç®—æ³•å¾—åˆ°çš„è¾“å‡ºæ–‡ä»¶æ ¼å¼ï¼›csvå­˜å‚¨æ‰€éœ€çš„ç©ºé—´æœ€å°ï¼Œæœ€ç®€å•ï¼Œå¢™è£‚æŽ¨èï¼‰ï¼›
 
-2. ¶ÔÕûÀíºóµÄÕýÀýÎÄ¼þ¼ÓÕýÀý±êÇ©£¨ÀýÈç1£©£¬¶ÔÕûÀíºóµÄ·´ÀýÎÄ¼þ¼Ó·´Àý±êÇ©£¨ÀýÈç0£©£¬²¢ºÏ²¢³ÉÒ»¸ö×ÜÎÄ¼þ¡£¶ÔÕâ¸ö×ÜÎÄ¼þµ÷ÓÃweka·ÖÀàÆ÷£¨ÀýÈçLibSVM£¬LibD3C£¬LibLinear£¬Bagging£¬Randomforest£¬IBK£¬J48,µÈµÈ£©½øÐÐ5ÕÛ»ò10ÕÛ½»²æÑéÖ¤·ÖÀàÆÀ¹À£¬µÃµ½·ÖÀà×¼È·¶ÈÒÔ¼°»ìÏý¾ØÕó£¬ÌØÒìÐÔÖ¸±êºÍÁéÃô¶ÈÖ¸±ê¡£
+2. å¯¹æ•´ç†åŽçš„æ­£ä¾‹æ–‡ä»¶åŠ æ­£ä¾‹æ ‡ç­¾ï¼ˆä¾‹å¦‚1ï¼‰ï¼Œå¯¹æ•´ç†åŽçš„åä¾‹æ–‡ä»¶åŠ åä¾‹æ ‡ç­¾ï¼ˆä¾‹å¦‚0ï¼‰ï¼Œå¹¶åˆå¹¶æˆä¸€ä¸ªæ€»æ–‡ä»¶ã€‚å¯¹è¿™ä¸ªæ€»æ–‡ä»¶è°ƒç”¨wekaåˆ†ç±»å™¨ï¼ˆä¾‹å¦‚LibSVMï¼ŒLibD3Cï¼ŒLibLinearï¼ŒBaggingï¼ŒRandomforestï¼ŒIBKï¼ŒJ48,ç­‰ç­‰ï¼‰è¿›è¡Œ5æŠ˜æˆ–10æŠ˜äº¤å‰éªŒè¯åˆ†ç±»è¯„ä¼°ï¼Œå¾—åˆ°åˆ†ç±»å‡†ç¡®åº¦ä»¥åŠæ··æ·†çŸ©é˜µï¼Œç‰¹å¼‚æ€§æŒ‡æ ‡å’Œçµæ•åº¦æŒ‡æ ‡ã€‚
 
-3. ×¢Òâ£ºLibD3CÊÇÊý¾ÝÍÚ¾òÊµÑéÊÒ¿ª·¢£¬ÍøÖ·ÈçÏÂ£ºhttp://datamining.xmu.edu.cn/~gjs/project/LibD3C.html
+3. æ³¨æ„ï¼šLibD3Cæ˜¯æ•°æ®æŒ–æŽ˜å®žéªŒå®¤å¼€å‘ï¼Œç½‘å€å¦‚ä¸‹ï¼šhttp://datamining.xmu.edu.cn/~gjs/project/LibD3C.html
 
  ![](/img/007.jpg)
 
-###²Î¿¼ÍøÕ¾£º
+### å‚è€ƒç½‘ç«™ï¼š
 [1] http://datamining.xmu.edu.cn/~wangzhen/cytokine/
 
 [2] http://malab.cn/forum.php?mod=viewthread&tid=926&extra=page%3D1
